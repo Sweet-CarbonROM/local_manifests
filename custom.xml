@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="sweet"
+    fetch="https://github.com/Sweet-CarbonROM/"
+    revision="cr-9.0" />
+    
+# Updater
+    <remove-project name="CarbonROM/android_packages_apps_CarbonDelta" />
+    <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="sweet" revision="cr-9.0" />
+</manifest>
