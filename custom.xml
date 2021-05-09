@@ -11,4 +11,8 @@
 # SEPolicy
     <remove-project name="CarbonROM/android_device_carbon_sepolicy" />
     <project path="device/carbon/sepolicy" name="android_device_carbon_sepolicy" remote="sweet" revision="cr-9.0" />
+    
+# CarbonROM vendor
+    <remove-project name="CarbonROM/android_vendor_carbon" />
+    <project path="vendor/carbon" name="android_vendor_carbon" remote="sweet" revision="cr-9.0" />
 </manifest>
